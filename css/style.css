@@ -24,8 +24,7 @@ body{
 /* globales */
 
 .contenedor{
-    max-width: 120rem;
-    width: 90%;
+    width: min(90%,120rem);
     margin: 0 auto;
 }
 
@@ -219,5 +218,48 @@ img{
     padding-bottom:3rem;
     display: grid;
     justify-content: center;
+}
+
+/*sobre nosotros*/
+
+@media (min-width: 768px) {
+    .sobre-nosotros{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 2rem;
+    }
+    
+}
+
+/*curso*/
+
+.curso{
+    padding: 3rem;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+@media (min-width: 768px) {
+    .curso{
+        display: grid;
+        grid-template-columns: 33.3% 66.7%;
+        column-gap: 2rem;
+    }
+}
+.curso:last-of-type{
+    border: none;
+}
+
+.curso__label{
+    font-family: var(--fuenteHeading);
+    font-weight: bold;
+}
+
+.curso__info{
+    font-weight: 400;
+}
+
+.curso,
+.curso__label{
+    font-size: 2rem;
 }
 
