@@ -295,10 +295,9 @@ img{
 
 .campo__field{
     flex: 2;
-    border: .5px solid #e1e1e1;
-    
-
+    border: .5px solid #a6a6a6;    
 }
+
 
 .campo__label{
     flex: 0 0 10rem;
@@ -309,6 +308,6 @@ img{
 .campo__field--textarea{
     height: 30rem;
     resize: none;
-    border: .5px solid #e1e1e1;
+    border: .5px solid #a6a6a6;
     flex: 1;
 }
