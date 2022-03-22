@@ -278,6 +278,7 @@ img{
     background-repeat: no-repeat;
 }
 
+
 .formulario{
     background-color: #fff;
     width: 95%;
@@ -300,7 +301,7 @@ img{
 }
 
 .campo__label{
-    flex: 0 0 9rem;
+    flex: 0 0 5rem;
     text-align: right;
     
 }
